@@ -2,8 +2,8 @@
 
 
 
-//% color=#2EFE2E weight=80
-//% icon="\uf491"
+//% color=#2EFE2E
+//% icon="\uf2cb"
 declare namespace DS1820pxt {
 
     /**

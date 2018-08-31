@@ -25,8 +25,8 @@ enum class Pins{
   P20= 30
 };
 
-//% color=#2EFE2E weight=80
-//% icon="\uf491"
+//% color=#2EFE2E
+//% icon="\uf2cb"
 namespace DS1820pxt {
 
   DS1820 *probe;
@@ -50,6 +50,6 @@ namespace DS1820pxt {
   int temp1dp() {
     probe->convertTemperature(true, DS1820::all_devices);
     uBit.sleep(20);
-    return (float)(((int)(probe->temperature() * 10.0)) / 10);
+    return (probe->temperature());
   }
 }
