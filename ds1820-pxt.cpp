@@ -50,6 +50,6 @@ namespace DS1820pxt {
   int temp1dp() {
     probe->convertTemperature(true, DS1820::all_devices);
     uBit.sleep(20);
-    return (probe->temperature());
+    return (int)(probe->temperature() * 10);
   }
 }

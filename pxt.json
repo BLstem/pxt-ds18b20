@@ -1,7 +1,7 @@
 {
-    "name": "cpptemplate",
+    "name": "ds1820",
     "version": "0.0.1",
-    "description": "Tinkercademy PXT CPP Template Package",
+    "description": "ds1820",
     "license": "MIT",
     "dependencies": {
         "core": "*"
