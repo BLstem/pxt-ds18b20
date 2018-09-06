@@ -1,4 +1,6 @@
 enum Pins{
+  fake_element1,
+  fake_element2
 }
 //% color=#2EFE2E
 //% icon="\uf2cb"
