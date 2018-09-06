@@ -19,6 +19,6 @@ namespace DS1820pxt {
     //% blockId = get_temp
     //% block="temperature" shim=DS1820pxt::temp1dp
     export function temp1dp(): number{
-    return 0
+        return 0
     }
 }

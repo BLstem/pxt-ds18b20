@@ -1,6 +1,4 @@
 // Auto-generated. Do not edit.
-
-
     declare enum Pins {
       P0=  3,
       P1=  2,
