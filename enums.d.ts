@@ -34,7 +34,7 @@ declare namespace DS1820pxt {
      * #include "DS1820.h"
      *
      * DS1820 probe(DATA_PIN);
-     *  
+     *
      * int main() {
      *     while(1) {
      *         probe.convertTemperature(true, DS1820::all_devices);         //Start temperature conversion, wait until ready
