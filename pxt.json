@@ -1,6 +1,6 @@
 {
     "name": "ds1820",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "ds1820",
     "license": "MIT",
     "dependencies": {
