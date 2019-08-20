@@ -10,7 +10,7 @@ namespace DS1820pxt {
      */
     //% blockId=probe_init
     //% block="connect temperature probe to %pin" shim=DS1820pxt::init
-    export function init_pH(pin: Pins): void{
+    export function init(pin: Pins): void{
     }
 
     /**
